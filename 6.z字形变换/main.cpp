@@ -6,6 +6,14 @@
 using namespace std;
 /*
  * https://leetcode-cn.com/problems/zigzag-conversion/
+ * LEETCODEISHIRING
+ * L   C   I   R
+ * E T O E S I I G
+ * E   D   H   N
+ * 
+ * 0, 0+(2*3-2), 0+(2*3-2)*2, 0+(2*3-2)*3
+ * 1, 1+(2*3-2-2*1), 1+(2*3-2), 1+(2*3-2)+(2*3-2-2*1), ....
+ * 2, 2+(2*3-2), 2+(2*3-2)*2, 2+(2*3-2)*3
  */
 
 
